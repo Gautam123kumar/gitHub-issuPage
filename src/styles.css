@@ -1,4 +1,76 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+/* .App {
+} */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.usernameHead {
+  color: blue;
+  font-size: 20px;
+}
+.repoHead {
+  color: blue;
+  font-size: 25px;
+}
+li {
+  height: 40px;
+}
+span {
+  height: 20px;
+  border-radius: 5px;
+  /* text-align: center; */
+  /* widows: 50px; */
+  /* border: 1px solid black; */
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  border: 1px solid #666;
+}
+img {
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  margin-inline-start: 20px;
+  top: 30px;
+}
+input {
+  height: 20px;
+  border-radius: 5px;
+}
+.input1 {
+  margin-inline-start: 20px;
+}
+.input1 {
+  margin-inline-start: 50px;
+}
+
+button {
+  top: 20px;
+  height: 25px;
+  margin-inline-start: 20px;
+  border-radius: 5px;
+}
+
+.page-link {
+  /* display: flex; */
+  /* border: 1px solid blue; */
+  height: 5px;
+  width: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
 }
